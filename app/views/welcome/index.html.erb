@@ -1,0 +1,20 @@
+<h1>Seja Bem-vindo! </h1>
+<p> Jaqueline Camarda </p>
+<p><strong>Data:</strong> <%= date_br(Date.today)%> </p>
+<!--<p>Hoje é dia <%= Date.today.strftime("%d/%m/%Y") %> </p> -->
+
+<!-- <p>A soma é <%= 1 +1 %> </p>
+<p>Meu nome de trás pra frente é <%= 'Jaqueline'.reverse %> </p>
+<% ax = "Oi sumida" %>
+<p>Imprimindo minha variável a: <%= ax %> </p> -->
+
+<%= render "menu" %>
+
+<!--<p> Você está em ambiente de <strong><%= Rails.env%></strong>
+</p>-->
+
+<p> Você está em ambiente de <strong><%= ambiente_rails%></strong>
+</p>
+<p> Eu sou uma variável de instãncia <%= @meu_nome %>
+</p>
+

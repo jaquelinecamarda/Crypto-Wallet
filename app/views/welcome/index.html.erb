@@ -1,6 +1,8 @@
 <h1>Seja Bem-vindo! </h1>
 <p> Jaqueline Camarda </p>
-<p><strong>Data:</strong> <%= date_br(Date.today)%> </p>
+<p>A lingua utilizada nessa aplicação é: <%= t('actual_locale') %> </p>
+<p><strong>Data:</strong> <%= l(Date.today) %> </p>
+<p><%= t('abc')%></p>
 <!--<p>Hoje é dia <%= Date.today.strftime("%d/%m/%Y") %> </p> -->
 
 <!-- <p>A soma é <%= 1 +1 %> </p>

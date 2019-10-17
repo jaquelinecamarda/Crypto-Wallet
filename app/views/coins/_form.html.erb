@@ -22,10 +22,17 @@
   </div>
 
   <div class="field">
-    <%= form.label :url_image %>
+class    <%= form.label :url_image %>
     <%= form.text_field :url_image %>
     <%# image_tag coin.url_image, width: 25, height: 25 %>
     
+  </div>
+
+  <div class="field">
+  <%= form.label :mining_type %>
+
+  <%= form.select("mining_type_id", @mining_type_options, { include_blank: "Selecione..." })%>
+  
   </div>
 
   <div class="actions">

@@ -1,5 +1,6 @@
 class CoinsController < ApplicationController
   before_action :set_coin, only: [:show, :edit, :update, :destroy]
+  before_action :set_mining_type_options, only: [:new, :edit, :update, :create]
 
   # GET /coins
   # GET /coins.json
@@ -62,13 +63,18 @@ class CoinsController < ApplicationController
   end
 
   private
+
+    def set_mining_type_options
+      @mining_type_options = MiningType.all.pluck(:description, :id)
     # Use callbacks to share common setup or constraints between actions.
+    end
+    
     def set_coin
       @coin = Coin.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def coin_params
-      params.require(:coin).permit(:description, :acronym, :url_image)
+      params.require(:coin).permit(:description, :acronym, :url_image, :mining_type_id)
     end
 end

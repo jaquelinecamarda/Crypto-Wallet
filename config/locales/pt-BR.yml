@@ -1,0 +1,9 @@
+pt-BR:
+  actual_locale: "Português do Brasil"
+  abc: "Olá Jaqueline!"
+  links:
+    edit: "editar"
+    show: "mostrar"
+    delete: "apagar"
+  editing:
+    mining_type: "Banana"

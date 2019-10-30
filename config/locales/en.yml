@@ -35,10 +35,25 @@ en:
   description: "This is Crypto Wallet, an app for managing your crypto coins."
   option: "To get started, select one of the options below."
   abc: "Hello world"
+  msg:
+    confirm: "Confirm ?"
   links:
     edit: "edit"
     show: "show"
     delete: "delete"
+    new: "New"
+    newmin: "New Mining Type"
+    back: "Back"
+  new:
+    coin: "New coin"
+    mining_type: "New mining type"
+  editing:
+    coin: "Editing coin"
+    mining_type: "Editing mining type"
+  showing:
+    coin: "Showing coin"
+    mining_type: "Showing mining type"
+  
 
 
 

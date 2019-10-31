@@ -3,13 +3,13 @@ pt-BR:
   welcome: "Seja Bem-Vindo"
   description: "Este é o Crypto Wallet, um app para gerenciar suas crypto moedas."
   option: "Pra começar, selecione uma das opções abaixo"
-  abc: "Olá Jaqueline!"
+  abc: "Olá Pessoal! Este é meu primeiro projeto. By Jaqueline Camarda"
   msg:
     confirm: "Tem certeza ?"
   links:
-    edit: "editar"
-    show: "mostrar"
-    delete: "apagar"
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
     new: "Novo"
     newmin: "Novo"
     back: "Voltar"
